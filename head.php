@@ -7,6 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="theme-color" content="#000000">
 <meta charset="UTF-8">
+<meta name="description" content="Saturn's website">
+<meta name="keywords" content="Saturn, 6b6t, Saturn 6b6t">
+<meta name="author" content="Saturn">
+<meta name="title" content="Saturn">
 <link rel="stylesheet" href="/res/css/reset.css">
 <link rel="stylesheet" href="/res/css/common.css">
 <link rel="stylesheet" href="/res/css/scanlines.css">

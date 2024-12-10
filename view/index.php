@@ -96,59 +96,6 @@
             text-shadow: 0px 0px 10px #FF0000;
         }
 
-
-        #intro {
-            position: fixed;
-            left: 0;
-            top: 0;
-            width: 100%;
-            height: 100%;
-            z-index: 1000000;
-            background-color: #000;
-        }
-
-        #intro.ready {
-            animation: 1.7s introHeat cubic-bezier(.82, .28, .93, .3) forwards;
-        }
-
-        #intro h1 {
-            position: fixed;
-            left: calc(10vw + 450px);
-            top: calc(70vh - 380px);
-            font-family: Heading;
-            font-size: 3vw;
-            text-shadow: 3px 6px #000, 0px -1px #000, 0px 1px #000, -1px 0px #000, 1px 0px #000, -1px -1px #000, 1px 1px #000, -1px 1px #000, 1px -1px #000;
-        }
-
-        #intro.ready h1 {
-            animation: 1.7s typeHeat cubic-bezier(.82, .28, .93, .3) forwards;
-        }
-
-        #intro h6 {
-            position: relative;
-            top: 90vh;
-            cursor: pointer;
-            margin: 0;
-            color: #FFF;
-            opacity: 0.2;
-        }
-
-        #intro.destroyed {
-            transition: 2s;
-            opacity: 0;
-            pointer-events: none;
-        }
-
-        @keyframes introHeat {
-            0% {
-                background-color: #000;
-            }
-
-            100% {
-                background-color: #888;
-            }
-        }
-
         @keyframes typeHeat {
             0% {
                 text-shadow: 0px 0px 0px #FFF;
@@ -195,52 +142,6 @@
                 volume: "0.5"
             });
 
-            var intro = new Howl({
-                src: "/res/audio/sfx/welcome.ogg",
-                loop: false,
-                volume: "0.7"
-            });
-            if (getCookie("seenintro") !== "yes3") {
-                window.addEventListener("load", function(event) {
-                    intro.play();
-                    intro.on('play', function() {
-                        PlayText();
-                        $('#intro').addClass("ready");
-                        setTimeout(function() {
-                            window.scrollTo(0, 0);
-                        }, 1700);
-                        setTimeout(function() {
-                            noise.play();
-                        }, 1700);
-                        setTimeout(function() {
-                            $("#intro").addClass("destroyed");
-                        }, 1700);
-                        setTimeout(function() {
-                            bgm.play();
-                        }, 2230);
-                        setTimeout(function() {
-                            setCookie("seenintro", "yes3", 356);
-                        }, 1700);
-                    });
-
-                    $("#intro h6").click(function() {
-                        $("#intro").hide();
-                        setCookie("seenintro", "yes3", 356);
-                    });
-                });
-            } else {
-                $("#intro").hide();
-                window.addEventListener("load", function(event) {
-                    noise.play();
-                    bgm.play();
-                });
-            }
-
-            $("#replay").click(function() {
-                setCookie("seenintro", "no", 356);
-                location.reload();
-            });
-
             $("#lain").click(function() {
                 $("#flyer").css("height", "200vh");
                 $("#wallpaper #lain").css("top", "calc(70vh - 456px + 200vh)");
@@ -259,100 +160,12 @@
                 }, 10000);
             });
         });
-
-        var new_time = 0;
-        var rec = false;
-
-        function PlayText() {
-            setTimeout(function() {
-                $("#intro h1").html("GAT_")
-            }, 100);
-            setTimeout(function() {
-                $("#intro h1").html("GATES\\")
-            }, 180);
-            setTimeout(function() {
-                $("#intro h1").html("GATES OP|")
-            }, 270);
-            setTimeout(function() {
-                $("#intro h1").html("GATES OPEN/")
-            }, 350);
-            setTimeout(function() {
-                $("#intro h1").html("GATES OPEN-")
-            }, 450);
-            setTimeout(function() {
-                $("#intro h1").html("GATES OPEN\\")
-            }, 510);
-            setTimeout(function() {
-                $("#intro h1").html("GATES OPEN|")
-            }, 620);
-            setTimeout(function() {
-                $("#intro h1").html("GATES OPEN/")
-            }, 690);
-            setTimeout(function() {
-                $("#intro h1").html("GATES OPEN-")
-            }, 740);
-            setTimeout(function() {
-                $("#intro h1").html("GATES O\\")
-            }, 800);
-            setTimeout(function() {
-                $("#intro h1").html("GAT|")
-            }, 880);
-            setTimeout(function() {
-                $("#intro h1").html("/")
-            }, 940);
-            setTimeout(function() {
-                $("#intro h1").html("-")
-            }, 1040);
-            setTimeout(function() {
-                $("#intro h1").html("\\")
-            }, 1120);
-            setTimeout(function() {
-                $("#intro h1").html("Unli|")
-            }, 1240);
-            setTimeout(function() {
-                $("#intro h1").html("Unlink t/")
-            }, 1290);
-            setTimeout(function() {
-                $("#intro h1").html("Unlink the wor-")
-            }, 1340);
-            setTimeout(function() {
-                $("#intro h1").html("Unlink the world.<br>Un\\")
-            }, 1440);
-            setTimeout(function() {
-                $("#intro h1").html("Unlink the world.<br>Unlock th|")
-            }, 1480);
-            setTimeout(function() {
-                $("#intro h1").html("Unlink the world.<br>Unlock the rest./")
-            }, 1520);
-            setTimeout(function() {
-                $("#intro h1").html("Unlink the world.<br>Unlock the rest.")
-            }, 1580);
-        }
-
-        var konami = "38,38,40,40,37,39,37,39,66,65";
-        var kkeys = [];
-
-        $(document).keydown(function(e) {
-            kkeys.push(e.keyCode);
-
-            if (kkeys.toString().indexOf(konami) >= 0) {
-                $(document).unbind('keydown', arguments.callee);
-
-                window.location.href = "/?sct8";
-            }
-        });
     </script>
 </head>
 
 <body>
     <?php include '../contentloader.php'; ?>
     <?php include '../header.php'; ?>
-    <div id="intro">
-        <h1></h1>
-        <center>
-            <h6>skip</h6>
-        </center>
-    </div>
     <div id="flyer"></div>
     <div id="wallpaper">
         <img id="lain" src="/res/img/others/lain.png" />
