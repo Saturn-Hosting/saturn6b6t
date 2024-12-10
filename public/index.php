@@ -21,6 +21,8 @@ $routes = [
     '/contact' => '../view/contact.php',
     '/saturn6b6t/contact' => '../view/saturn6b6t/contact.php',
     '/copyright' => '../view/copyright.php',
+    '/login' => '../view/login.php',
+    '/saturn6b6t/login' => '../view/saturn6b6t/login.php',
 ];
 
 require_once $routes[$route] ?? '../view/404.php';
