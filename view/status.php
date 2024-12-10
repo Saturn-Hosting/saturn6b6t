@@ -151,11 +151,6 @@
         <h4>REMAINING</h4>
     </div>
     <div class="seperate"></div>
-    <div class="layer" id="linked">
-        <h2>SATURN HOSTING</h2>
-        <h4>REMAINING</h4>
-    </div>
-    <div class="seperate"></div>
     <div class="layer" id="usage">
         <h2>SATURN EMPIRE</h2>
         <h4>CANCELLED</h4>

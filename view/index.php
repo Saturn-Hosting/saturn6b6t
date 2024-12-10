@@ -410,8 +410,6 @@
             bases and became inactive on 6b6t, Saturn 6b6t became active again in december 2024. Saturn 6b6t is focused
             on absolute loyalty to Saturn and it's community.
         </p>
-        <h1>Saturn Hosting</h1>
-        <p>Saturn Hosting is commercial cloud hosting and software development solution, creating SaaS and websites.</p>
         <h1>Lambda</h1>
         <p>Lambda is a group recognizable by having a lambda in their PFP or the lambda symbol in their pronouns on
             discord, it's a group made mainly to indicate loyalty to eachother.</p>
