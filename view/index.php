@@ -169,7 +169,7 @@
     <div id="flyer"></div>
     <div id="wallpaper">
         <img id="lain" src="/res/img/others/lain.png" />
-        <h1>Join <span style="color:yellow"><a href="https://discord.gg/ajm7CSRBZY">SATURN</a></span> now!<br><?php echo $slots - $members; ?> slots remaining</h1>
+        <h1>Join <span style="color:yellow"><a href="https://discord.gg/ajm7CSRBZY" target="_blank">SATURN</a></span> now!<br><?php echo $slots - $members; ?> slots remaining</h1>
     </div>
     <div class="seperator"></div>
     <div class="padded">
@@ -184,7 +184,7 @@
                 <a id="regs" href="/listing">
                     <h1><span style="color: yellow"><?php echo $members; ?></span> members</h1>
                 </a>
-                <h3>Join our <a href="https://discord.gg/ajm7CSRBZY" class="discord">discord</a> and apply to join
+                <h3>Join our <a href="https://discord.gg/ajm7CSRBZY" target="_blank" class="discord">discord</a> and apply to join
                     Saturn now</h3>
                 <style>
                     .discord:hover {
