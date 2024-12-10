@@ -169,7 +169,7 @@
     <div id="flyer"></div>
     <div id="wallpaper">
         <img id="lain" src="/res/img/others/lain.png" />
-        <h1>Discover the power of<br>Saturn.</h1>
+        <h1>Join <span style="color:yellow"><a href="https://discord.gg/ajm7CSRBZY">SATURN</a></span> now!</h1>
     </div>
     <div class="seperator"></div>
     <div class="padded">
