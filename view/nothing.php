@@ -28,6 +28,10 @@
             });
 
             $("body").css("opacity", "1");
+
+            setTimeout(function() {
+                window.location.href = "/";
+            }, 10000);
         });
     </script>
     <style>
