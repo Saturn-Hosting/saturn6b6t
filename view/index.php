@@ -419,7 +419,7 @@
     <div class="seperate"></div>
     <?php include '../nav.php'; ?>
     <center>
-        <a class="link" href="/copyright">&copy; 2022 - 2024 saturn6b6t.com</a>
+        <a class="link" href="/copyright">&copy; 2022 - 2024 nont123.nl</a>
     </center>
 </body>
 
