@@ -95,50 +95,50 @@
                     <tr>
                         <td>May 2022</td>
                         <td>Emilsen</td>
-                        <td>???</td>
-                        <td class="imgtd"><img src="/res/img/azedev.png" class="codeimage"></td>
+                        <td>Emilsen2152</td>
+                        <td class="imgtd"><img src="/res/img/Emilsen2152.png" class="codeimage"></td>
                     </tr>
                     <tr>
                         <td>May 2022</td>
                         <td>Wildy</td>
                         <td>W1ldy</td>
-                        <td class="imgtd"><img src="/res/img/azedev.png" class="codeimage"></td>
+                        <td class="imgtd"><img src="/res/img/W1ldy.png" class="codeimage"></td>
                     </tr>
                     <tr>
                         <td>May 2022</td>
                         <td>Fulgur</td>
                         <td>Havikje12</td>
-                        <td class="imgtd"><img src="/res/img/azedev.png" class="codeimage"></td>
+                        <td class="imgtd"><img src="/res/img/Havikje12.png" class="codeimage"></td>
                     </tr>
                     <tr>
                         <td>May 2022</td>
                         <td>Attacker</td>
                         <td>???</td>
-                        <td class="imgtd"><img src="/res/img/azedev.png" class="codeimage"></td>
+                        <td class="imgtd"><img src="/res/img/Steve.png" class="codeimage"></td>
                     </tr>
                     <tr>
                         <td>June 2023</td>
                         <td>Aster</td>
                         <td>???</td>
-                        <td class="imgtd"><img src="/res/img/azedev.png" class="codeimage"></td>
+                        <td class="imgtd"><img src="/res/img/Steve.png" class="codeimage"></td>
                     </tr>
                     <tr>
                         <td>June 2023</td>
                         <td>7mWale</td>
                         <td>???</td>
-                        <td class="imgtd"><img src="/res/img/azedev.png" class="codeimage"></td>
+                        <td class="imgtd"><img src="/res/img/Steve.png" class="codeimage"></td>
                     </tr>
                     <tr>
                         <td>January 2024</td>
                         <td>bd71legend</td>
-                        <td>bd71legend</td>
-                        <td class="imgtd"><img src="/res/img/azedev.png" class="codeimage"></td>
+                        <td>???</td>
+                        <td class="imgtd"><img src="/res/img/Steve.png" class="codeimage"></td>
                     </tr>
                     <tr>
                         <td>February 2024</td>
                         <td>MX</td>
-                        <td>???</td>
-                        <td class="imgtd"><img src="/res/img/azedev.png" class="codeimage"></td>
+                        <td>Maximum4923</td>
+                        <td class="imgtd"><img src="/res/img/Maximum4923.png" class="codeimage"></td>
                     </tr>
                 </tbody>
             </table>
