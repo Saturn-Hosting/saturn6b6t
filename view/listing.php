@@ -119,19 +119,19 @@
                     <tr>
                         <td>June 2023</td>
                         <td>Aster</td>
-                        <td>???</td>
+                        <td>deeznuts69</td>
                         <td class="imgtd"><img src="/res/img/Steve.png" class="codeimage"></td>
                     </tr>
                     <tr>
                         <td>June 2023</td>
                         <td>7mWale</td>
-                        <td>???</td>
-                        <td class="imgtd"><img src="/res/img/Steve.png" class="codeimage"></td>
+                        <td>7mWale</td>
+                        <td class="imgtd"><img src="/res/img/7mWale.png" class="codeimage"></td>
                     </tr>
                     <tr>
                         <td>January 2024</td>
                         <td>bd71legend</td>
-                        <td>???</td>
+                        <td>bd71legend</td>
                         <td class="imgtd"><img src="/res/img/Steve.png" class="codeimage"></td>
                     </tr>
                     <tr>
